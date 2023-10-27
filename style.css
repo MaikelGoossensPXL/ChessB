@@ -2,7 +2,26 @@ table, th, td{
     border:1px solid black;
 }
 
-table
+table{
+    border: 2px solid darkred;
+}
+
 td{
+    text-align: center;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
     background-image: url("assets/witte-marmer.jpg");
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("assets/witte-marmer.jpg");
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("assets/zwarte-marmer.jpg");
 }
