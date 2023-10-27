@@ -1,25 +1,25 @@
-body{
+body {
     background-image: url("assets/hout.jpg");
 }
 
-#chess table, th, td{
-    border:1px solid black;
+#chess table, th, td {
+    border: 1px solid black;
     background-color: white;
 }
 
-#chess{
-    border: 2px solid #5F021F;
+#chess {
+    border: 6px solid #5F021F;
     border-collapse: collapse;
     float: left;
 }
 
-#chess td{
+#chess td {
     text-align: center;
 }
 
-#chess td{
-    width: 80px;
-    height: 80px;
+#chess td {
+    width: 100px;
+    height: 100px;
 }
 
 #chess tr:nth-child(odd) td:nth-child(odd) {
@@ -38,11 +38,17 @@ body{
     background-image: url("assets/zwarte-marmer.jpg");
 }
 
+#info td {
+    background-image: url("assets/witte-marmer.jpg");
+    border: 6px solid #5F021F;
+    height: 600px;
+    vertical-align: top;
+    font-size: 25px;
+    word-spacing: 5px;
+    padding: 10px;
+}
+
 #info{
     float: right;
-    font-family: "Berlin Sans FB": Serif;
-    width: 40%;
-}
-#info tr{
-    background-image: url("assets/witte-marmer.jpg") !important;
+    width: 600px;
 }
