@@ -37,6 +37,18 @@ body {
 #chess :nth-child(even) td:nth-child(odd) {
     background-image: url("assets/zwarte-marmer.jpg");
 }
+#chess td img{
+    height: 40px;
+}
+#chess td img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+}
+
+#info{
+    float: right;
+    width: 600px;
+}
 
 #info td {
     background-image: url("assets/witte-marmer.jpg");
@@ -48,7 +60,3 @@ body {
     padding: 10px;
 }
 
-#info{
-    float: right;
-    width: 600px;
-}
